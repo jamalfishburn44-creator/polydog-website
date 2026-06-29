@@ -162,3 +162,14 @@ color:white;
 text-decoration:none;
 font-weight:bold;
 }
+
+#community{
+text-align:center;
+padding:80px 20px;
+}
+
+#community p{
+max-width:700px;
+margin:20px auto;
+line-height:1.8;
+}
