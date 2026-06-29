@@ -173,3 +173,17 @@ max-width:700px;
 margin:20px auto;
 line-height:1.8;
 }
+#community h2{
+color:#d8b4fe;
+margin-bottom:20px;
+}
+
+#community .button{
+margin-top:20px;
+display:inline-block;
+}
+
+.wallet-button:hover{
+background:#9333ea;
+transition:.3s;
+}
