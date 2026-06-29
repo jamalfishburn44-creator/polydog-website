@@ -121,3 +121,44 @@ opacity:.7;
 font-size:.9rem;
 letter-spacing:2px;
 }
+
+/* Navigation */
+
+.navbar{
+position:fixed;
+top:0;
+left:0;
+width:100%;
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:15px 20px;
+background:rgba(11,16,32,.9);
+backdrop-filter:blur(10px);
+border-bottom:1px solid rgba(124,58,237,.3);
+z-index:1000;
+}
+
+.logo{
+font-size:1.3rem;
+font-weight:bold;
+}
+
+.menu{
+display:flex;
+gap:15px;
+}
+
+.menu a{
+color:#d8b4fe;
+text-decoration:none;
+}
+
+.wallet-button{
+background:#7c3aed;
+padding:10px 18px;
+border-radius:999px;
+color:white;
+text-decoration:none;
+font-weight:bold;
+}
