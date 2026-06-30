@@ -150,7 +150,8 @@ white-space:nowrap;
 
 .menu{
 display:flex;
-gap:15px;
+gap:10px;
+flex-wrap:nowrap;
 }
 
 .menu a{
