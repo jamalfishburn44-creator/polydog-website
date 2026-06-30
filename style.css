@@ -157,6 +157,8 @@ flex-wrap:nowrap;
 .menu a{
 color:#d8b4fe;
 text-decoration:none;
+font-size:15px;
+white-space:nowrap;
 }
 
 .wallet-button{
