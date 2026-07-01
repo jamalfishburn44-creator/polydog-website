@@ -1,17 +1,30 @@
-document.addEventListener("DOMContentLoaded", () => {
+const walletButton = document.getElementById("connectWallet");
 
-  console.log("Welcome to PolyDog!");
+walletButton.addEventListener("click", async (e) => {
 
-  const button = document.querySelector(".button");
+e.preventDefault();
 
-  if (button) {
-    button.addEventListener("click", (e) => {
-      e.preventDefault();
+if (typeof window.ethereum === "undefined") {
+alert("Please install MetaMask.");
+return;
+}
 
-      document.getElementById("mission").scrollIntoView({
-        behavior: "smooth"
-      });
-    });
-  }
+try {
+
+const accounts = await ethereum.request({
+method: "eth_requestAccounts"
+});
+
+walletButton.innerHTML =
+accounts[0].slice(0,6) +
+"..." +
+accounts[0].slice(-4);
+
+}
+catch(err){
+
+console.log(err);
+
+}
 
 });
