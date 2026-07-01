@@ -1,13 +1,8 @@
-const walletButton = document.getElementById("connectWallet");
+const connectBtn = document.getElementById("connectWallet");
 
-walletButton.addEventListener("click", async (e) => {
+async function connectWallet() {
 
-e.preventDefault();
-
-if (typeof window.ethereum === "undefined") {
-alert("Please install MetaMask.");
-return;
-}
+if (typeof window.ethereum !== "undefined") {
 
 try {
 
@@ -15,16 +10,24 @@ const accounts = await ethereum.request({
 method: "eth_requestAccounts"
 });
 
-walletButton.innerHTML =
-accounts[0].slice(0,6) +
+connectBtn.innerHTML =
+"Connected<br>" +
+accounts[0].substring(0,6) +
 "..." +
-accounts[0].slice(-4);
+accounts[0].substring(accounts[0].length-4);
+
+} catch (err) {
+
+alert("Wallet connection cancelled.");
 
 }
-catch(err){
 
-console.log(err);
+} else {
+
+alert("Please install MetaMask.");
 
 }
 
-});
+}
+
+connectBtn.addEventListener("click", connectWallet);
