@@ -211,7 +211,12 @@ text-decoration:none;
 .footer-links a:hover{
 color:white;
 }
-
+.token-grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+gap:25px;
+margin-top:40px;
+}
 footer{
 background:#050814;
 padding:50px 20px;
