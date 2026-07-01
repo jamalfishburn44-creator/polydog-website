@@ -276,3 +276,13 @@ color:#d8b4fe;
 .timeline-item p{
 margin:0;
 }
+
+.wallet-button{
+cursor:pointer;
+transition:.3s;
+}
+
+.wallet-button:hover{
+transform:scale(1.05);
+box-shadow:0 0 20px rgba(124,58,237,.6);
+}
