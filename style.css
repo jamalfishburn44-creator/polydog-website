@@ -385,3 +385,62 @@ font-weight:bold;
 }
 
 }
+/* Whitepaper Mobile Fix */
+
+.whitepaper-title{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    text-align:center;
+    margin-bottom:40px;
+}
+
+.whitepaper-title img{
+    width:180px;
+    max-width:70%;
+    height:auto;
+    margin-bottom:20px;
+}
+
+.whitepaper-container{
+    max-width:900px;
+    margin:auto;
+    padding:20px;
+}
+
+.whitepaper-container h2{
+    font-size:2rem;
+    margin-top:40px;
+}
+
+.whitepaper-container p,
+.whitepaper-container li{
+    font-size:1.1rem;
+    line-height:1.8;
+}
+
+@media (max-width:768px){
+
+.whitepaper-title img{
+    width:120px;
+    max-width:50%;
+}
+
+.whitepaper-title h1{
+    font-size:2rem;
+}
+
+.whitepaper-container{
+    padding:20px;
+}
+
+.whitepaper-container h2{
+    font-size:1.5rem;
+}
+
+.whitepaper-container p,
+.whitepaper-container li{
+    font-size:1rem;
+}
+
+}
