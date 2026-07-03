@@ -343,3 +343,8 @@ color:white;
 font-size:2rem;
 font-weight:bold;
     }
+.hero-logo{
+    width:220px;
+    max-width:80%;
+    margin-bottom:20px;
+}
