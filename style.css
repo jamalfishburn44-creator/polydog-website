@@ -288,3 +288,37 @@ transition:.3s;
 transform:scale(1.05);
 box-shadow:0 0 20px rgba(124,58,237,.6);
 }
+
+.logo{
+display:flex;
+align-items:center;
+gap:10px;
+font-size:2rem;
+font-weight:bold;
+text-decoration:none;
+color:white;
+}
+
+.logo:hover{
+color:#d8b4fe;
+}
+
+.logo span{
+text-decoration:none;
+}
+
+.wallet-button{
+background:#7c3aed;
+color:white;
+border:none;
+padding:12px 22px;
+border-radius:999px;
+font-weight:bold;
+cursor:pointer;
+transition:.3s;
+}
+
+.wallet-button:hover{
+transform:scale(1.05);
+box-shadow:0 0 20px rgba(124,58,237,.6);
+}
