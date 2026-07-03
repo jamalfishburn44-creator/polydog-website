@@ -484,3 +484,28 @@ font-weight:bold;
     font-size:20px;
     line-height:1.8;
 }
+
+@media (max-width:768px){
+
+.whitepaper-title img{
+    width:170px;
+}
+
+.whitepaper-title h1{
+    font-size:2rem;
+}
+
+.whitepaper-title p{
+    font-size:1rem;
+}
+
+.whitepaper-container{
+    padding:25px;
+}
+
+.whitepaper-container p,
+.whitepaper-container li{
+    font-size:17px;
+}
+
+}
