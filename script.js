@@ -45,3 +45,15 @@ function updateButton(account) {
     connectButton.innerText =
         account.slice(0, 6) + "..." + account.slice(-4);
 }
+async function loadTokenData() {
+
+    // Temporary values until liquidity is added
+
+    document.getElementById("price").innerText = "Launching Soon";
+    document.getElementById("marketcap").innerText = "TBA";
+    document.getElementById("holders").innerText = "Live After Launch";
+    document.getElementById("liquidity").innerText = "Pending";
+
+}
+
+loadTokenData();
