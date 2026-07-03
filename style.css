@@ -509,3 +509,29 @@ font-weight:bold;
 }
 
 }
+.progress-bar{
+width:100%;
+height:20px;
+background:#1c2140;
+border-radius:30px;
+overflow:hidden;
+margin:20px 0;
+}
+
+.progress-fill{
+width:0%;
+height:100%;
+background:linear-gradient(90deg,#7b2ff7,#c471ed);
+transition:.5s;
+}
+
+.status{
+padding:8px 18px;
+border-radius:20px;
+font-weight:bold;
+}
+
+.preparing{
+background:#3a2a62;
+color:#d7b6ff;
+}
