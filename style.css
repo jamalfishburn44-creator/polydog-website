@@ -444,3 +444,43 @@ font-weight:bold;
 }
 
 }
+
+.whitepaper-container{
+    max-width:900px;
+    margin:auto;
+    padding:40px 20px;
+}
+
+.whitepaper-title{
+    text-align:center;
+    margin-bottom:50px;
+}
+
+.whitepaper-title img{
+    width:260px;
+    max-width:100%;
+    height:auto;
+}
+
+.whitepaper-title h1{
+    color:#d8b4fe;
+    font-size:3rem;
+    margin-top:20px;
+}
+
+.whitepaper-title p{
+    color:white;
+    font-size:1.3rem;
+}
+
+.whitepaper-container h2{
+    color:#d8b4fe;
+    margin-top:50px;
+    margin-bottom:20px;
+}
+
+.whitepaper-container p,
+.whitepaper-container li{
+    font-size:20px;
+    line-height:1.8;
+}
