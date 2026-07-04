@@ -611,3 +611,42 @@ font-weight:700;
 text-decoration:none;
 
 }
+.contract-box{
+
+background:#151a34;
+
+border:2px solid #8b5cf6;
+
+border-radius:16px;
+
+padding:18px;
+
+margin:20px 0;
+
+text-align:center;
+
+overflow-wrap:anywhere;
+
+box-shadow:0 0 15px rgba(139,92,246,.25);
+
+}
+
+.contract-box a{
+
+color:#d8b4fe;
+
+font-size:17px;
+
+font-weight:700;
+
+text-decoration:none;
+
+line-height:1.8;
+
+}
+
+.contract-box a:hover{
+
+color:white;
+
+}
