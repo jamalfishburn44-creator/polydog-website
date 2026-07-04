@@ -582,3 +582,32 @@ line-height:1.6;
 margin-top:18px;
 
 }
+.contract-box{
+
+background:#151a34;
+
+border:2px solid #8b5cf6;
+
+border-radius:12px;
+
+padding:16px;
+
+margin:20px 0;
+
+text-align:center;
+
+overflow-wrap:anywhere;
+
+}
+
+.contract-box a{
+
+color:#d8b4fe;
+
+font-size:16px;
+
+font-weight:700;
+
+text-decoration:none;
+
+}
