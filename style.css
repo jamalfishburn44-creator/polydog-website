@@ -535,3 +535,50 @@ font-weight:bold;
 background:#3a2a62;
 color:#d7b6ff;
 }
+.contract-box{
+
+background:#12162b;
+
+border:2px solid #8b5cf6;
+
+border-radius:14px;
+
+padding:18px;
+
+margin:18px 0;
+
+word-break:break-all;
+
+text-align:center;
+
+}
+
+.contract-box a{
+
+color:#d8b4fe;
+
+font-size:17px;
+
+font-weight:700;
+
+text-decoration:none;
+
+}
+
+.contract-box a:hover{
+
+color:white;
+
+}
+
+.verify{
+
+color:#b9b9c7;
+
+font-size:15px;
+
+line-height:1.6;
+
+margin-top:18px;
+
+}
