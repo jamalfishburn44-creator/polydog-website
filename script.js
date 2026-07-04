@@ -1,59 +1,56 @@
 const connectButton = document.getElementById("connectWallet");
 
-window.addEventListener("load", checkConnection);
+const contractAddress =
+"0xca3b716582b4790c9fdd2672425e82c183b8e3d5";
 
+// Connect Wallet
+if (connectButton) {
 connectButton.addEventListener("click", connectWallet);
-
-async function checkConnection() {
-    if (!window.ethereum) return;
-
-    try {
-        const accounts = await ethereum.request({
-            method: "eth_accounts"
-        });
-
-        if (accounts.length > 0) {
-            updateButton(accounts[0]);
-        }
-    } catch (err) {
-        console.error(err);
-    }
 }
 
 async function connectWallet() {
 
-    if (!window.ethereum) {
-        alert("Please install MetaMask to connect your wallet.");
-        window.open("https://metamask.io/download/", "_blank");
-        return;
-    }
-
-    try {
-        const accounts = await ethereum.request({
-            method: "eth_requestAccounts"
-        });
-
-        updateButton(accounts[0]);
-
-    } catch (err) {
-        console.error(err);
-        alert("Wallet connection cancelled.");
-    }
+if (!window.ethereum) {
+alert("Please install MetaMask.");
+return;
 }
 
-function updateButton(account) {
-    connectButton.innerText =
-        account.slice(0, 6) + "..." + account.slice(-4);
+try {
+
+const accounts = await window.ethereum.request({
+method: "eth_requestAccounts"
+});
+
+const account = accounts[0];
+
+connectButton.innerHTML =
+account.substring(0,6) +
+"..." +
+account.substring(account.length-4);
+
 }
-async function loadTokenData() {
+catch(err){
 
-    // Temporary values until liquidity is added
-
-    document.getElementById("price").innerText = "Launching Soon";
-    document.getElementById("marketcap").innerText = "TBA";
-    document.getElementById("holders").innerText = "Live After Launch";
-    document.getElementById("liquidity").innerText = "Pending";
+console.log(err);
 
 }
 
-loadTokenData();
+}
+
+// Copy Contract
+function copyContract(){
+
+navigator.clipboard.writeText(contractAddress);
+
+const btn =
+document.getElementById("copyButton");
+
+btn.innerHTML="✅ Copied!";
+
+setTimeout(function(){
+
+btn.innerHTML="📋 Copy Contract";
+
+},2000);
+
+}
