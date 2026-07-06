@@ -4,7 +4,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
+    "build:bundle": "vite build --config vite.bundle.config.js && cp dist-bundle/wallet.bundle.js wallet.bundle.js",
     "preview": "vite preview --host 0.0.0.0 --port 5000"
   },
   "dependencies": {

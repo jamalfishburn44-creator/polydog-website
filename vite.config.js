@@ -1,19 +1,14 @@
+/**
+ * vite.config.js — dev server only.
+ * Serves all static files from the project root on port 5000.
+ * The site is plain HTML/CSS/JS — no module bundling at dev time.
+ */
 import { defineConfig } from 'vite'
-import { resolve } from 'path'
 
 export default defineConfig({
-  build: {
-    rollupOptions: {
-      input: {
-        main: resolve(__dirname, 'index.html'),
-        launch: resolve(__dirname, 'launch.html'),
-        whitepaper: resolve(__dirname, 'whitepaper.html'),
-      }
-    }
-  },
   server: {
     host: '0.0.0.0',
     port: 5000,
-    allowedHosts: true
-  }
+    allowedHosts: true,
+  },
 })
