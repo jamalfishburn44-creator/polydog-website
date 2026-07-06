@@ -4,22 +4,21 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>PolyDog Community Launch</title>
-
-<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="/src/style.css">
 </head>
 
 <body>
 
 <nav class="navbar">
 
-<a href="index.html" class="logo">
-<img src="logo.png" alt="PolyDog">
+<a href="/index.html" class="logo">
+<img src="/logo.png" alt="PolyDog">
 <span>PolyDog</span>
 </a>
 
-<button id="connectWallet" class="wallet-button">
-Connect Wallet
-</button>
+<div id="walletArea">
+  <button id="connectWallet" class="wallet-button">Connect Wallet</button>
+</div>
 
 </nav>
 
@@ -27,7 +26,7 @@ Connect Wallet
 
 <div class="hero-content">
 
-<img src="logo.png" class="hero-logo">
+<img src="/logo.png" class="hero-logo">
 
 <h1>Community Launch</h1>
 
@@ -41,16 +40,8 @@ This portal provides transparent updates on launch progress, community milestone
 
 </div>
 
-
-
-
-
-
-
-
 </section>
 <section class="card">
-
 
 <h2>🚀 Launch Dashboard</h2>
 
@@ -77,16 +68,15 @@ This portal provides transparent updates on launch progress, community milestone
 <p><strong>Token</strong></p>
 <h3>PolyDog (PDOG)</h3>
 
-
-
-
-
 <div class="contract-box">
 
 <a href="https://polygonscan.com/token/0xca3b716582b4790c9fdd2672425e82c183b8e3d5"
 target="_blank">
 
 0xca3b716582b4790c9fdd2672425e82c183b8e3d5
+
+</a>
+
 <a
 href="https://polygonscan.com/token/0xca3b716582b4790c9fdd2672425e82c183b8e3d5"
 target="_blank"
@@ -95,11 +85,6 @@ class="button">
 🔎 View on Polygonscan
 
 </a>
-</a>
-
-</div>
-
-</div>
 
 </div>
 
@@ -153,7 +138,7 @@ This goal is intended to help prepare:
 </ul>
 
 <div class="progress-bar">
-    <div class="progress-fill"></div>
+  <div class="progress-fill"></div>
 </div>
 
 <p><strong>0</strong> Community Supporters</p>
@@ -303,7 +288,7 @@ Be one of the first members of the Pack.
 
 <p>🌐 <a href="https://polydog.xyz">Website</a></p>
 
-<p>📄 <a href="whitepaper.html">Whitepaper</a></p>
+<p>📄 <a href="/whitepaper.html">Whitepaper</a></p>
 
 <p>📂 GitHub: Coming Soon</p>
 
@@ -361,7 +346,6 @@ Always verify information before interacting with the project.
 
 <h2>Our Commitment</h2>
 
-</p>
 <p>
 
 Launch Portal Version 1.0
@@ -378,12 +362,13 @@ Launch Portal Version 1.0
 
 <br>
 
-<a href="index.html" class="button">
+<a href="/index.html" class="button">
 ← Back to Website
 </a>
 
 </footer>
-<script type="module" src="wallet.js"></script>
-<script src="script.js"></script>
+
+<script type="module" src="/src/launch.js"></script>
+
 </body>
 </html>
