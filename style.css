@@ -646,3 +646,9 @@ font-weight:bold;
     background:linear-gradient(90deg,#7c3aed,#c084fc);
     transition:width .5s ease;
 }
+.button{
+    display:block;
+    width:100%;
+    text-align:center;
+    margin-top:15px;
+}
