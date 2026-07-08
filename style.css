@@ -652,3 +652,8 @@ font-weight:bold;
     text-align:center;
     margin-top:15px;
 }
+.contract-box a{
+    display:block;
+    word-break:break-all;
+    overflow-wrap:anywhere;
+}
