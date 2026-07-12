@@ -714,24 +714,24 @@ font-weight:bold;
 }
 /* Launch page buttons */
 
-.contract-box .button{
+.contract-box .button,
+.launch-button,
+.button.launch-button{
     display:flex;
     justify-content:center;
     align-items:center;
-    width:100%;
-    min-height:60px;
-    padding:16px 20px;
-    white-space:normal;
-    word-break:normal;
-    overflow-wrap:break-word;
-    text-align:center;
+    color:#ffffff !important;
+    -webkit-text-fill-color:#ffffff !important;
 }
-.contract-box .button,
-.launch-button{
-    color:#fff !important;
+
+.contract-box .button:link,
+.contract-box .button:visited,
+.launch-button:link,
+.launch-button:visited{
+    color:#ffffff !important;
 }
 
 .contract-box .button *{
-    color:#fff !important;
+    color:#ffffff !important;
 }
 
