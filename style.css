@@ -657,3 +657,6 @@ font-weight:bold;
     word-break:break-all;
     overflow-wrap:anywhere;
 }
+#tokenomics {
+    scroll-margin-top: 100px;
+}
