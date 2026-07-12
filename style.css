@@ -664,7 +664,7 @@ font-weight:bold;
     white-space:normal;
     color:#7c3aed;
 }
-}
+
 #tokenomics,
 #mission,
 #roadmap,
@@ -726,5 +726,12 @@ font-weight:bold;
     overflow-wrap:break-word;
     text-align:center;
 }
+.contract-box .button,
+.launch-button{
+    color:#fff !important;
+}
 
+.contract-box .button *{
+    color:#fff !important;
+}
 
