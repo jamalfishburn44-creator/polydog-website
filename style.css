@@ -694,3 +694,12 @@ font-weight:bold;
     gap:20px;
     flex-wrap:wrap;
 }
+.contract-address{
+    display:block;
+    width:100%;
+    color:#7c3aed;
+    word-break:break-all;
+    overflow-wrap:anywhere;
+    white-space:normal;
+    margin:15px 0;
+}
