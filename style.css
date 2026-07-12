@@ -256,10 +256,10 @@ font-weight:bold;
 .stat-card,
 .social-card,
 .timeline-item{
-background:#18203a;
-border:1px solid #7c3aed;
-border-radius:18px;
-padding:25px;
+    background:#18203a;
+    border:1px solid #7c3aed;
+    border-radius:18px;
+    padding:18px;
 }
 
 .features-grid,
@@ -662,7 +662,4 @@ font-weight:bold;
 #roadmap,
 #contact {
     scroll-margin-top: 100px;
-}
-body {
-    padding-bottom: 80px;
-}
+
