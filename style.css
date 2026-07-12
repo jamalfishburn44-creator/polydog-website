@@ -711,3 +711,28 @@ font-weight:bold;
     white-space:normal;
     overflow-wrap:anywhere;
 }
+/* Launch page buttons */
+
+.contract-box .button{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    width:100%;
+    min-height:60px;
+    padding:16px 20px;
+    white-space:normal;
+    word-break:normal;
+    overflow-wrap:break-word;
+    text-align:center;
+}
+
+button.button{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    width:100%;
+    min-height:60px;
+    padding:16px 20px;
+    white-space:normal;
+    text-align:center;
+}
