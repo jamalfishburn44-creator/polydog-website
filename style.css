@@ -140,13 +140,13 @@ margin-bottom:20px;
 }
 
 .hero{
-min-height:100vh;
-display:flex;
-justify-content:center;
-align-items:center;
-text-align:center;
-padding:120px 20px 80px;
-background:linear-gradient(135deg,#0b1020,#3b0764,#7c3aed);
+    min-height:100svh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    padding:140px 20px 120px;
+    background:linear-gradient(135deg,#0b1020,#3b0764,#7c3aed);
 }
 
 .hero-content{
