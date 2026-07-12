@@ -656,13 +656,14 @@ font-weight:bold;
     font-size:18px;
     font-weight:bold;
 }
-.contract-box a{
+.contract-box a:not(.button){
     display:block;
     width:100%;
     word-break:break-all;
     overflow-wrap:anywhere;
     white-space:normal;
     color:#7c3aed;
+}
 }
 #tokenomics,
 #mission,
