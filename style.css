@@ -196,7 +196,9 @@ transition:.3s;
 background:#9333ea;
 transform:translateY(-3px);
 }
-
+.button{
+    font-size:0.95rem;
+}
 .secondary{
 background:transparent;
 border:2px solid #7c3aed;
@@ -649,6 +651,11 @@ font-weight:bold;
     width:100%;
     text-align:center;
     margin-top:15px;
+.button{
+    font-size:0.9rem;
+    padding:14px 18px;
+    white-space:normal;
+    word-break:break-word;
 }
 .contract-box a{
     display:block;
