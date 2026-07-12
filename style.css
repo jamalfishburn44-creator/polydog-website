@@ -647,14 +647,14 @@ font-weight:bold;
     transition:width .5s ease;
 }
 .button{
-    display:block;
-    width:100%;
-    text-align:center;
-    margin-top:15px;
-    font-size:0.9rem;
-    padding:14px 18px;
-    white-space:normal;
-    overflow-wrap:anywhere;
+    display:inline-block;
+    padding:16px 34px;
+    background:#7c3aed;
+    color:#fff;
+    text-decoration:none;
+    border-radius:999px;
+    font-weight:bold;
+    transition:.3s;
 }
 .contract-box a{
     display:block;
