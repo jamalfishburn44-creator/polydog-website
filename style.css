@@ -155,25 +155,22 @@ max-width:850px;
 }
 
 .hero h1{
-font-size:4rem;
-margin-bottom:15px;
+    font-size:2.8rem;
+    line-height:1.15;
 }
 
 .hero h2{
-font-size:2.3rem;
-margin-bottom:15px;
-}
-
-.hero h3{
-font-size:1.4rem;
-font-weight:400;
-color:#d8b4fe;
-margin-bottom:25px;
+    font-size:1.8rem;
+    line-height:1.25;
 }
 
 .hero p{
-font-size:1.2rem;
-margin-bottom:30px;
+    font-size:1.1rem;
+    line-height:1.7;
+}
+
+.hero-content{
+    max-width:100%;
 }
 
 .hero-buttons{
