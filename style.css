@@ -675,3 +675,14 @@ font-weight:bold;
 }
 
 }
+.hero-actions{
+    padding:40px 20px 20px;
+    text-align:center;
+}
+
+.hero-actions .hero-buttons{
+    display:flex;
+    justify-content:center;
+    gap:20px;
+    flex-wrap:wrap;
+}
