@@ -148,7 +148,7 @@ margin-bottom:20px;
     padding:140px 20px 120px;
     background:linear-gradient(135deg,#0b1020,#3b0764,#7c3aed);
 }
-}
+
 
 .hero-content{
 max-width:850px;
@@ -651,11 +651,10 @@ font-weight:bold;
     width:100%;
     text-align:center;
     margin-top:15px;
-.button{
     font-size:0.9rem;
     padding:14px 18px;
     white-space:normal;
-    word-break:break-word;
+    overflow-wrap:anywhere;
 }
 .contract-box a{
     display:block;
