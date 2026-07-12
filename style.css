@@ -663,3 +663,15 @@ font-weight:bold;
 #contact {
     scroll-margin-top: 100px;
 
+@media (max-width:768px){
+
+.token-grid{
+    gap:16px;
+}
+
+.token-grid .card{
+    min-height:140px;
+    padding:20px;
+}
+
+}
