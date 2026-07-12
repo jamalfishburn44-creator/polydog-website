@@ -182,14 +182,15 @@ margin-bottom:25px;
 }
 
 .button{
-display:inline-block;
-padding:16px 34px;
-background:#7c3aed;
-color:white;
-text-decoration:none;
-border-radius:999px;
-font-weight:bold;
-transition:.3s;
+    display:inline-block;
+    padding:16px 24px;
+    background:#7c3aed;
+    color:#ffffff;
+    text-decoration:none;
+    text-align:center;
+    border-radius:999px;
+    font-size:18px;
+    font-weight:bold;
 }
 
 .button:hover{
@@ -646,13 +647,14 @@ font-weight:bold;
 }
 .button{
     display:inline-block;
-    padding:16px 34px;
+    padding:16px 24px;
     background:#7c3aed;
-    color:#fff;
+    color:#ffffff;
     text-decoration:none;
+    text-align:center;
     border-radius:999px;
+    font-size:18px;
     font-weight:bold;
-    transition:.3s;
 }
 .contract-box a{
     display:block;
