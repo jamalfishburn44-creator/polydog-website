@@ -201,13 +201,26 @@ font-weight:600;
 
 .hero h1{
 
-font-size:4.5rem;
+font-size:5.5rem;
 
-line-height:1.1;
+font-weight:800;
+
+line-height:1.05;
 
 margin-bottom:25px;
 
-font-weight:800;
+background:linear-gradient(
+90deg,
+#ffffff,
+#d8b4fe,
+#ffffff
+);
+
+-webkit-background-clip:text;
+
+-webkit-text-fill-color:transparent;
+
+}
 
 }
 
