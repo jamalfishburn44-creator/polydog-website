@@ -163,11 +163,15 @@ z-index:2;
 
 .hero-logo{
 
-width:220px;
+width:300px;
 
-margin-bottom:30px;
+margin-bottom:35px;
 
 animation:floatLogo 5s ease-in-out infinite;
+
+filter:
+drop-shadow(0 0 30px rgba(168,85,247,.5))
+drop-shadow(0 0 80px rgba(124,58,237,.3));
 
 }
 
