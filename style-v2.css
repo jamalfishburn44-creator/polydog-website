@@ -516,7 +516,11 @@ gap:30px;
 
 .eco-card{
 
-background:rgba(255,255,255,.04);
+background:linear-gradient(
+180deg,
+rgba(255,255,255,.08),
+rgba(255,255,255,.03)
+);
 
 border:1px solid rgba(124,58,237,.25);
 
@@ -591,7 +595,11 @@ margin-top:70px;
 
 .dashboard-card{
 
-background:rgba(255,255,255,.05);
+background:linear-gradient(
+180deg,
+rgba(255,255,255,.08),
+rgba(255,255,255,.03)
+);
 
 border:1px solid rgba(124,58,237,.25);
 
